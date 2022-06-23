@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import cdacproject.cdacproject.controller.response.GlobalResponse;
 import cdacproject.cdacproject.dao.UserDao;
 import cdacproject.cdacproject.entity.User;
+import cdacproject.cdacproject.response.GlobalResponse;
 
 @Service
 public class UserService {

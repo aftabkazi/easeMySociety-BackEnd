@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import cdacproject.cdacproject.entity.User;
+import cdacproject.cdacproject.response.GlobalResponse;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import cdacproject.cdacproject.service.UserService;
@@ -12,9 +14,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-
-import cdacproject.cdacproject.controller.response.GlobalResponse;
-
 import org.springframework.web.bind.annotation.CrossOrigin;
 @RestController
 @CrossOrigin(origins = "*")

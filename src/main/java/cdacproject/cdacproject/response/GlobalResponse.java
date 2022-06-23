@@ -1,4 +1,4 @@
-package cdacproject.cdacproject.controller.response;
+package cdacproject.cdacproject.response;
 
 public class GlobalResponse {
 	

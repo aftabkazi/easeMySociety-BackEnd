@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import cdacproject.cdacproject.controller.response.GlobalResponse;
 import cdacproject.cdacproject.entity.Vendor;
+import cdacproject.cdacproject.response.GlobalResponse;
 import cdacproject.cdacproject.service.VendorService;
 @RestController
 @CrossOrigin(origins = "*")
